@@ -21,3 +21,7 @@ INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('2.0
 INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Trilha HTML', 'Trilha principal do curso', 1, 'https://live.staticflickr.com/8344/8203888403_950fb1c9df_b.jpg', 1, 1);
 INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Forum', 'Tire suas dúvidas', 2, 'https://live.staticflickr.com/8344/8203888403_950fb1c9df_b.jpg', 2, 1);
 INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Lives', 'Lives exclusivas para complementar os estudos', 3, 'https://live.staticflickr.com/8344/8203888403_950fb1c9df_b.jpg', 0, 1);
+
+INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capítulo 1', 'Apresentação do curso', 1, 'https://live.staticflickr.com/8344/8203888403_950fb1c9df_b.jpg', 1, null);
+INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capítulo 2', 'Desenvolvimento do curso', 2, 'https://live.staticflickr.com/8344/8203888403_950fb1c9df_b.jpg', 1, 1);
+INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capítulo 3', 'Conclusão do curso', 3, 'https://live.staticflickr.com/8344/8203888403_950fb1c9df_b.jpg', 1, 2);
