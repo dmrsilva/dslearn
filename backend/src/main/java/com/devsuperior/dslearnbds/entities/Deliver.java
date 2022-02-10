@@ -42,7 +42,7 @@ public class Deliver implements Serializable {
 		@JoinColumn(name = "offer_id"),
 		@JoinColumn(name = "user_id")
 	})
-	private Enrollment entollment;
+	private Enrollment enrollment;
 	
 	public Deliver() {
 	}
