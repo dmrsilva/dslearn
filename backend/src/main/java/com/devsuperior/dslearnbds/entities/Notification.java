@@ -83,6 +83,10 @@ public class Notification implements Serializable {
 		this.route = route;
 	}
 
+	public User getUser() {
+		return user;
+	}
+
 	@Override
 	public int hashCode() {
 		return Objects.hash(id);
